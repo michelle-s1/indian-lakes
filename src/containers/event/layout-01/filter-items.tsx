@@ -28,7 +28,7 @@ const FilterItems = ({ events }: TProps) => {
                                 path={event.path}
                                 thumbnail={event.thumbnail}
                                 start_date={event.start_date}
-                                location={event.location}
+                                venue={event.venue}
                             />
                         ))
                 ) : (

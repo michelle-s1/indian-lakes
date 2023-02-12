@@ -46,7 +46,7 @@ const Summary = ({
                     <div className="tw-mx-3 tw-mb-[5px]">
                         <i className="fas fa-map-marker-alt tw-text-primary tw-mr-[5px]" />
                         <span>
-                            {location.city}, {location.country}
+                            {venue}
                         </span>
                     </div>
 

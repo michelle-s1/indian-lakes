@@ -25,7 +25,7 @@ const OriginalItems = ({ events, pagiData }: TProps) => {
                         path={event.path}
                         thumbnail={event.thumbnail}
                         start_date={event.start_date}
-                        location={event.location}
+                       venue={event.venue}
                         initial="offscreen"
                         whileInView="onscreen"
                         viewport={{ once: true, amount: 0.1 }}

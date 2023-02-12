@@ -245,6 +245,8 @@ export interface IEvent {
     currency: string;
     body: IContent[];
     speakers: ISpeaker[];
+    age: string;
+    
 }
 
 export interface IZoomMeeting {

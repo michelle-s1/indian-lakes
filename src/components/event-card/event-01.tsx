@@ -8,13 +8,13 @@ import { IEvent } from "@utils/types";
 interface TProps
     extends Pick<
         IEvent,
-        "thumbnail" | "title" | "path" | "start_date" | "location"
+        "thumbnail" | "title" | "path" | "start_date" | "venue"
     > {
     className?: string;
 }
 
 const Event01 = forwardRef<HTMLDivElement, TProps>(
-    ({ thumbnail, title, path, start_date, location, className }, ref) => {
+    ({ thumbnail, title, path, start_date, venue, className }, ref) => {
         return (
             <div
                 className={clsx(
@@ -45,7 +45,7 @@ const Event01 = forwardRef<HTMLDivElement, TProps>(
                             className="tw-text-primary"
                             path={path}
                         >
-                            Get ticket
+                            Details
                         </Button>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Event01 = forwardRef<HTMLDivElement, TProps>(
                     </h3>
                     <p className="tw-text-[17px] tw-mt-6.1 tw-mb-0">
                         <i className="fa fa-map-marker-alt tw-mr-2.5" />
-                        {location.city}, {location.country}
+                        {venue}
                     </p>
                 </div>
             </div>

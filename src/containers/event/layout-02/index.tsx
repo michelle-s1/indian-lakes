@@ -71,7 +71,7 @@ const EventArea = ({
                                     path={event.path}
                                     thumbnail={event.thumbnail}
                                     start_date={event.start_date}
-                                    location={event.location}
+                                    venue={event.venue}
                                     className="tw-mb-7.5"
                                 />
                             </SwiperSlide>

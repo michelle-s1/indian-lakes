@@ -4,12 +4,12 @@ import dayjs from "dayjs";
 import Button from "@ui/button";
 import { IEvent } from "@utils/types";
 
-type TProps = Pick<IEvent, "title" | "start_date" | "path" | "location"> & {
+type TProps = Pick<IEvent, "title" | "start_date" | "path" | "venue"> & {
     className?: string;
 };
 
 const Event02 = forwardRef<HTMLDivElement, TProps>(
-    ({ title, start_date, path, location, className }, ref) => {
+    ({ title, start_date, path, venue, className }, ref) => {
         return (
             <div
                 className={clsx(
@@ -24,7 +24,7 @@ const Event02 = forwardRef<HTMLDivElement, TProps>(
                 <div className="tw-grow tw-pb-3.8 tw-pr-0 sm:tw-pb-0 sm:tw-pr-7.5">
                     <div className="tw-text-base tw-text-gray-300 tw-mb-[7px]">
                         <i className="fa fa-map-marker-alt tw-mr-[5px]" />
-                        {location.city}, {location.country}
+                        {venue}
                     </div>
                     <h3 className="tw-text-xl tw-leading-normal tw-mb-0">
                         {title}
