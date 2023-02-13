@@ -1,0 +1,37 @@
+{
+    "id": 1,
+    "title": "2013 Puma by Palomino PT39K9",
+    "thumbnail": {
+        "src": "/images/campers/01/01.webp"
+    },
+    "price": 44000.00,
+    "currency": "$",
+    "lot": 301,
+    "year": 2013,
+    "sleeps": "6-8",
+    "make": "Puma",
+    "model": "PT39K9",
+    "length": "41'",
+    "lakefront": true,
+    "seller": "317-965-2878",
+    "body": [
+        {
+            "id": 1,
+            "type": "list",
+            "content": ["Lake front lot",
+            "2 slideouts",
+            "Permanent Aluminum Awnings over deck and slideout",
+            "Professionally power-washed trailer and deck at the end of August",
+            "Big, open kitchen and living room area (misc. items inside won't stay)",
+            "Shed with full size fridge",
+            "Patio table with four chairs (Glider swing will not stay)",
+            "Smoker grill (new last August)",
+            "Log rack with firewood",
+            "Private Master with King Bed and big screen TV",
+            "Washer / Dryer hookup in closet in bathroom",
+            "Pullout queen bed in sofa with extra pillow top for added comfort",
+            "Corelle dishes, some pans, silverware, toaster, and coffee maker included",
+            "Golf cart will not stay"]
+        }
+    ]
+}

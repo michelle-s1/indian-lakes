@@ -19,7 +19,6 @@ const PriceInfo = ({ title, currency, price }: TProps) => {
                         <>
                             {currency}
                             {price}
-                            <span className="tw-text-lg">.00</span>
                         </>
                     )}
                 </span>

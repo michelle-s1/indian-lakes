@@ -25,6 +25,8 @@ export interface ButtonType {
     icon?: string;
 }
 
+
+
 export interface SectionTitleType {
     title: string;
     subtitle?: string;
@@ -246,7 +248,25 @@ export interface IEvent {
     body: IContent[];
     speakers: ISpeaker[];
     age: string;
-    
+
+}
+
+export interface ICamper {
+    title: string;
+    thumbnail: ImageType;
+    slug: string;
+    path: string;
+    sleeps: string;
+    price: number;
+    currency: string;
+    lot: number;
+    body: IContent[];
+    make: string;
+    model: string;
+    year: number;
+    seller: string;
+    length: string;
+    lakefront: boolean;
 }
 
 export interface IZoomMeeting {
